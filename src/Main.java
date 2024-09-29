@@ -31,12 +31,12 @@ public class Main {
     }
 
      static void evenNumbers (int[] list){
-        List<Integer> newList = new ArrayList<>();
+        List<Integer> result = new ArrayList<>();
          for (int j : list) {
              if (j % 2 == 0) {
-                 newList.add(j);
+                 result.add(j);
              }
          }
-         System.out.println(newList);
+         System.out.println(result);
     }
 }
